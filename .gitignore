@@ -9,6 +9,9 @@ dist/
 web-build/
 expo-env.d.ts
 
+# EAS
+.eas/
+
 # Native
 .kotlin/
 *.orig.*
@@ -26,12 +29,20 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+# logs
+*.log
+
 # macOS
 .DS_Store
 *.pem
 
+# Windows
+Thumbs.db
+desktop.ini
+
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
